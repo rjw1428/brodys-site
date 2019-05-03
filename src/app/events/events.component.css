@@ -1,0 +1,17 @@
+.bg {
+    background-color: rgb(100,0,0);
+    height: 50vh;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+    .bg {
+        height: 40vh;
+    }
+  }

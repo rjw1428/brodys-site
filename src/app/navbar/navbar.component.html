@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark space py-0">
+  <div class="container-fluid">
+    <div class="d-flex w-100" >
+      <a class="navbar-brand d-none d-md-block" href="#">
+        <div class="col-6">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <img class="img-container"
+                src="https://firebasestorage.googleapis.com/v0/b/brodys-192703.appspot.com/o/site-images%2Flogo-sm.png?alt=media&token=a058f344-4c1f-4e37-b6ed-9f951babdc98">
+            </div>
+            <div class="col-6 d-none d-lg-inline-block">
+              <h3>{{ barName | uppercase }}</h3>
+            </div>
+          </div>
+        </div>
+      </a>
+      <button class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- hidden spacer to center brand on mobile -->
+      <a class="w-50 d-md-none d-inline-block" href="#">
+        <img class="img-container-center"
+          src="https://firebasestorage.googleapis.com/v0/b/brodys-192703.appspot.com/o/site-images%2Flogo-sm.png?alt=media&token=a058f344-4c1f-4e37-b6ed-9f951babdc98">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="navbar-nav mr-0" data-toggle="collapse" data-target="#myNavbar">
+        <li class="nav-item">
+          <a href="#top" class="nav-link m-2 menu-item nav-active">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu" class="nav-link m-2 menu-item">MENU</a>
+        </li>
+        <li class="nav-item">
+          <a href="#drafts" class="nav-link m-2 menu-item">DRAFTS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#events" class="nav-link m-2 menu-item">EVENTS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link m-2 menu-item">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

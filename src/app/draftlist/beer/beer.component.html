@@ -1,0 +1,35 @@
+<h2 class="sold-out" *ngIf="!beer.available">SOLD OUT</h2>
+<div [ngClass]="{'container':true, 'bg':true, 'dim':!beer.available, 'bright':beer.available}">
+  <div class="row">
+    <div class="col-sm-6 col-2 px-0">
+      <img class="icon" [src]="icon" *ngIf="icon">
+    </div>
+    <div class="col-6 d-block d-sm-none">
+      <p style="margin:0">{{beer.company}}</p>
+      <h3>{{beer.beer}}</h3>
+    </div>
+    <div class="col-sm-6 col-4">
+      <div class="row">
+        <div class="col-12">
+          <p class="italic float-right">{{beer.note}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p class="italic float-right abv"><span *ngIf="beer.abv!=null">ABV: </span>{{beer.abv}} <span
+              *ngIf="beer.abv!=null">%</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row d-none d-sm-block">
+    <div class="col-12  my-0">
+      <p style="margin:0">{{beer.company}}</p>
+    </div>
+  </div>
+  <div class="row d-none d-sm-block ">
+    <div class="col-12  my-0">
+      <h3>{{beer.beer}}</h3>
+    </div>
+  </div>
+</div>

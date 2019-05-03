@@ -1,0 +1,48 @@
+.bg {
+    background-color: rgb(50,50,50);
+}
+
+p, h3, h4 {
+    color: white;
+}
+p {
+    margin-bottom: 5px; 
+}
+
+p:last-child{
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+.header {
+    margin-top: 10px;
+}
+
+.side-pic {
+    margin-bottom: 10px;
+    width: 20vh;
+    height: 20vh;
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+.tile {
+    width: auto;
+    height: 100%;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+.hours {
+    font-size: larger;
+}

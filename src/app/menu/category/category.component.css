@@ -1,0 +1,6 @@
+.cat-head {
+    position: relative;
+    /* transform: translateX(-50%); */
+    left: 40%;
+    border: 1px solid red;
+}

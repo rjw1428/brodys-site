@@ -1,0 +1,26 @@
+.bg {
+    position: fixed;
+    background-color: rgb(5, 100, 20);
+    height: 30px;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    /* width: 100vw; */
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+span {
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+  }

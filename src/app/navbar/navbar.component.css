@@ -1,0 +1,36 @@
+/* .nav-link {
+    color: white;
+} */
+
+.img-container {
+    position: absolute;
+    height: 75px;
+    width: auto;
+    transform: translate(-25%,-20%);
+    z-index: 2;
+}
+
+.img-container-center {
+    position: absolute;
+    height: 75px;
+    left: 50vw;
+    width: auto;
+    transform: translate(-60%, -25%);
+}
+
+.space {
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h3::first-letter {
+    font-size: 125%;
+}
+
+a {
+    font-family: 'Freckle Face', cursive;
+    font-size: 24px;
+}

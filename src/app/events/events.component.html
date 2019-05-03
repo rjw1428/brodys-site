@@ -1,0 +1,28 @@
+<a class="anchor" id="events"></a>
+<div class="row bg" >
+  <div class="col-sm-2 d-none d-md-block mx-auto">
+    <app-page-side [title]="sideTitle"></app-page-side>
+  </div>
+
+
+  <div class="col-sm-10 p-1">
+    <app-page-title [title]="pageTitle" [darkMode]=true></app-page-title>
+    <div class="row">
+      <div class="col-4">
+        <app-event [title]="eventTitle[0]" [img]="img[0]" [index]="0" (onClick)="tileSelected($event)"></app-event>
+      </div>
+      <div class="col-4">
+        <app-event [title]="eventTitle[1]" [img]="img[1]" [index]="1" (onClick)="tileSelected($event)"></app-event>
+      </div>
+      <div class="col-4">
+        <app-event [title]="eventTitle[2]" [img]="img[2]" [index]="2" (onClick)="tileSelected($event)"></app-event>
+      </div>
+    </div>
+    <div class="row" *ngIf="displayDescription">
+      <div class="col-12">
+        <p style="color:white">{{description[activeItem]}}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
