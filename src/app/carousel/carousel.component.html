@@ -3,12 +3,14 @@
 
     <div class="carousel-inner" *ngIf="imageList.length>0">
       <div [ngClass]="{'carousel-item':true, 'active':i==0}" *ngFor="let image of imageList; let i=index;">
-        <div class="overlay-container" *ngIf="i==0">
-          <img class="logo"
+        <div class="overlay-container d-flex flex-column justify-content-around align-items-center" *ngIf="i==0">
+          <div class="d-none d-sm-block text-center">
+            <img class="logo h-100" 
             src="https://firebasestorage.googleapis.com/v0/b/brodys-192703.appspot.com/o/site-images%2Fbrodys-logo.png?alt=media&token=918f5aff-be8f-4140-9df2-46bf7caa4656">
+          </div>
           <h2 class="line">BURGERS • BEER • FAMILY • FRIENDS</h2>
         </div>
-        <div class="carousel-img-container">
+        <div class="carousel-img-container ">
           <img class="carousel-img" [src]="image" *ngIf="image">
         </div>
       </div>
