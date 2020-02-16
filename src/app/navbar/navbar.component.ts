@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   barName: string = "Brody's Burgers & Beer"
+  barShort: string = "Brody's Burgers"
   constructor() { }
 
   ngOnInit() {

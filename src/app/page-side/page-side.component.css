@@ -1,23 +1,9 @@
 .side-title {
-    
     white-space: nowrap;
-    /* top: 1.5em; */
-        /* right: 1.75em; */
     font-weight: bold;
-    /* font-size: 200%; */
-    float: right;
     font-size: 4em;
-}
-
-.side {
-    position: absolute;
-    width: 10px;
-    float: right;
+    padding: 0;
     margin: 0;
-    left: 20px;
-    /* border: 1px solid red; */
-    transform: rotate(-90deg);
-    /* top: 100px; */
 }
 
 .light {

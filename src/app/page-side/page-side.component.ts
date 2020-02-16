@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class PageSideComponent implements OnInit {
   @Input() title: string
-  @Input() shift: any
+  // @Input() shift: any
   @Input('darkMode') isDark: boolean
   constructor() { }
 
