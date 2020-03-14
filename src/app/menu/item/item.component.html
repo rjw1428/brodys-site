@@ -2,7 +2,11 @@
   <div class="col-8 col-md-6">
     <h4 class="title">{{item.name}}</h4>
     <p>{{item.description}}</p>
-    <p class="price">{{item.price | currency}}</p>
+    <div *ngIf="item.priceString">
+      <p class="price">{{item.priceString}}</p>
+    </div>
+    <!-- <p?.length>0">{{item.price | json}}</p> -->
+    <!-- -->
   </div>
   <div class="col-4 col-md-6 text-center">
     <img style="height: 100px; width: auto"[src]="item.img.fbUrl" *ngIf="item.img">
