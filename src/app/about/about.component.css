@@ -12,3 +12,8 @@ a.anchor {
     top: -150px;
     visibility: hidden;
 }
+
+img {
+    box-shadow: 5px 5px 5px black;
+}
+

@@ -8,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
   pageTitle: string="About Us"
   sideTitle: string="ABOUT"
+  year: number = 19
   constructor() { }
 
   ngOnInit() {
+    this.year = new Date().getFullYear() - 2001
   }
-
 }

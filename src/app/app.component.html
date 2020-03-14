@@ -1,16 +1,20 @@
 <app-header></app-header>
-<app-navbar></app-navbar>
+<app-navbar (onScroll)="triggerScroll($event)"></app-navbar>
 <div class="container-fluid body"  id="top">
   <div class="row">
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 bg">
+      <div #home></div>
       <app-carousel></app-carousel>
+      <div #menu class="scroll-offset"></div>
       <app-menu></app-menu>
+      <div #drafts class="scroll-offset"></div>
       <app-draftlist></app-draftlist>
+      <div #events class="scroll-offset"></div>
       <app-events></app-events>
       <app-about></app-about>
+      <div #contact class="scroll-offset"></div>
       <app-contact></app-contact>
       <app-map></app-map>
-      
     </div>
   </div>
 </div>

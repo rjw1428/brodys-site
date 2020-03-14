@@ -45,3 +45,7 @@ a.anchor {
 .hours {
     font-size: larger;
 }
+
+img {
+    box-shadow: 5px 5px 5px black;
+}

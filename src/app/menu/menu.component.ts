@@ -14,7 +14,7 @@ export class MenuComponent implements OnInit {
 
   ngOnInit() {
     this.service.getCategories().subscribe(vals => {
-      this.categoryList = vals
+      this.categoryList = vals.sort((a,b)=>a['order']-b['order'])
     })
   }
 

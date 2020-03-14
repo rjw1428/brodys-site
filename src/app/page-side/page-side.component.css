@@ -7,9 +7,11 @@
 }
 
 .light {
-    color: rgba(200,200,200,.9);
+    color: rgba(200,200,200,.5);
+    /* text-shadow: 1px 1px 1px #4d4d4d; */
 }
 
 .dark {
-    color: rgba(100, 100, 100, 0.7);
+    color: rgba(100, 100, 100, 0.5);
+    /* text-shadow: 1px 1px 1px #1e1e1e; */
 }

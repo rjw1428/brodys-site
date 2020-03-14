@@ -2,6 +2,7 @@
     position: relative;
     /* width: 100vw; */
     height: 100%;
+    overflow: hidden;
     background:
         linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
         linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
@@ -21,4 +22,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+.scroll-offset {
+  position: relative; 
+  top: -105px;
 }

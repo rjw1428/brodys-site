@@ -1,3 +1,14 @@
 h4 {
     font-family: 'Roboto Slab', serif;
 }
+
+.title {
+    color: maroon;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+    font-style: italic;
+    text-align: end;
+}

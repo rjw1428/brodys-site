@@ -1,7 +1,6 @@
 <div class="row w-100" *ngIf="foodList.length>0">
-  <div class="col-12">
+  <div class="col-12 d-flex justify-content-center">
     <app-page-title [title]="category.name"></app-page-title>
-    <!-- <h3 class="text-center">{{category.name}}</h3> -->
   </div>
 </div>
 <app-item *ngFor="let food of foodList" [item]="food"></app-item>
